@@ -17,7 +17,7 @@ namespace FunctionOne
             if (IsValidClient(client))
             {
                 CreateClient(client);
-                logger.LogInformation($"Client with email: {client.Email} was created");
+                logger.LogInformation($"Client with email: {client.Email} fue creado");
             }
             else
             {
